@@ -16,24 +16,24 @@ class Test(TestCase):
       "L82",
     ]
     result = solution(input)
-    self.assertEqual(result, 3)
+    self.assertEqual(3, result)
 
   def test_l50(self):
     input = ["L50"]
     result = solution(input)
-    self.assertEqual(result, 1)
+    self.assertEqual(1, result)
 
   def test_r50(self):
     input = ["R50"]
     result = solution(input)
-    self.assertEqual(result, 1)
+    self.assertEqual(1, result)
 
   def test_r49(self):
     input = ["R49"]
     result = solution(input)
-    self.assertEqual(result, 0)
+    self.assertEqual(0, result)
 
   def test_l51(self):
     input = ["L51"]
     result = solution(input)
-    self.assertEqual(result, 0)
+    self.assertEqual(0, result)
